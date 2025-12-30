@@ -1,4 +1,4 @@
-### ETA_automacao_e_Testes_Mobile---Uber
+# ETA_automacao_e_Testes_Mobile---Uber
 
 Este repositório contém o projeto de automação de testes para o aplicativo Uber, desenvolvido como parte da avaliação da disciplina de Tópicos Especiais I - Testes e Automação para Dispositivos Móveis, ministrada pelo professor Samuel Elias Bravo Lopes.
 
@@ -6,7 +6,7 @@ Este repositório contém o projeto de automação de testes para o aplicativo U
 
 O objetivo deste exercício é aplicar conhecimentos práticos de QA (Quality Assurance) Mobile, utilizando ferramentas de automação para validar fluxos críticos de um aplicativo real disponível na loja de aplicativos.
 
-# O escopo do projeto abrange:
+### O escopo do projeto abrange:
 
 Escolha de um aplicativo existente.
 
@@ -14,7 +14,7 @@ Mapeamento de 3 funcionalidades distintas.
 
 Implementação de 2 cenários de teste para cada funcionalidade (Total: 6 cenários).
 
-# Tecnologias Utilizadas 
+### Tecnologias Utilizadas 
 
 As seguintes ferramentas e bibliotecas foram utilizadas na construção deste projeto:
 
@@ -28,13 +28,13 @@ IDE: [VS Code / Pycharm]
 
 Dispositivo: [Android Emulator / Dispositivo Físico Android]
 
-# Como Executar o Projeto Pré-requisitos Python 3.x instalado.
+### Como Executar o Projeto Pré-requisitos Python 3.x instalado.
 
 [Appium Server / Airtest] configurado e rodando.
 
 Dispositivo Android conectado ou Emulador iniciado.
 
-Instalação das Dependências 
+### Instalação das Dependências 
 
 Clone este repositório e instale as bibliotecas necessárias:
 
