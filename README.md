@@ -40,15 +40,15 @@ Clone este repositório e instale as bibliotecas necessárias:
 
 Bash
 
-```git clone https://github.com/biadfialho/ETA_automacao_e_Testes_Mobile.git 
+```git clone https://github.com/biadfialho/ETA_automacao_e_Testes_Mobile.git``` 
 
-`cd ETA_automacao_e_Testes_Mobile
+```cd ETA_automacao_e_Testes_Mobile```
 
-`pip install -r requirements.txt```
+```pip install -r requirements.txt```
 
 Rodando os Testes Para executar a automação, utilize o comando:
 
 Bash
 
-`pytest -v`
+```pytest -v```
 
