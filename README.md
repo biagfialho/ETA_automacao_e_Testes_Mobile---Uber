@@ -1,54 +1,101 @@
-# ETA_automacao_e_Testes_Mobile---Uber
+# Automação de Testes Mobile – Uber (Android)
 
-Este repositório contém o projeto de automação de testes para o aplicativo Uber, desenvolvido como parte da avaliação da disciplina de Tópicos Especiais I - Testes e Automação para Dispositivos Móveis, ministrada pelo professor Samuel Elias Bravo Lopes.
+Este repositório contém um projeto de Automação de Testes Mobile desenvolvido para o aplicativo Uber (Android), com foco na validação de fluxos críticos por meio de testes automatizados.
+
+O projeto foi desenvolvido como parte da disciplina Tópicos Especiais I – Testes e Automação para Dispositivos Móveis, com o objetivo de aplicar, na prática, conceitos fundamentais de QA Mobile, Automação de Testes e Qualidade de Software.
 
 ## Objetivo do Projeto
 
-O objetivo deste exercício é aplicar conhecimentos práticos de QA (Quality Assurance) Mobile, utilizando ferramentas de automação para validar fluxos críticos de um aplicativo real disponível na loja de aplicativos.
+Aplicar conhecimentos práticos de Quality Assurance Mobile, utilizando ferramentas de automação para validar funcionalidades essenciais de um aplicativo real amplamente utilizado, simulando cenários próximos ao ambiente de produção.
 
-### O escopo do projeto abrange:
+Este projeto tem como foco:
 
-Escolha de um aplicativo existente.
+Garantir a qualidade e confiabilidade de fluxos críticos
 
-Mapeamento de 3 funcionalidades distintas.
+Exercitar boas práticas de automação de testes
 
-Implementação de 2 cenários de teste para cada funcionalidade (Total: 6 cenários).
+Estruturar um projeto de testes automatizados do zero
 
-### Tecnologias Utilizadas 
+## Escopo dos Testes
 
-As seguintes ferramentas e bibliotecas foram utilizadas na construção deste projeto:
+O escopo do projeto contempla:
 
-Linguagem: [Python]
+Seleção de um aplicativo real disponível na Play Store (Uber)
 
-Framework de Automação: [Appium]
+Mapeamento de 3 funcionalidades distintas
 
-Gerenciador de Testes: [Pytest]
+Implementação de 2 cenários de teste automatizados por funcionalidade
 
-IDE: [VS Code / Pycharm]
+Total de 6 cenários de teste automatizados
 
-Dispositivo: [Android studio Emulator / Dispositivo Físico Android]
+## Execução dos testes em:
 
-### Como Executar o Projeto Pré-requisitos Python e Node.js instalado.
+Emulador Android
 
-[Appium Server / Airtest] configurado e rodando.
+Dispositivo físico Android
 
-Dispositivo Android conectado ou Emulador iniciado.
+## Tecnologias e Ferramentas Utilizadas
 
-### Instalação das Dependências 
+Linguagem: Python
 
-Clone este repositório e instale as bibliotecas necessárias:
+Framework de Automação: Appium
 
-Bash
+Framework de Testes: Pytest
 
-```git clone https://github.com/biadfialho/ETA_automacao_e_Testes_Mobile.git``` 
+IDE: VS Code / PyCharm
 
-```cd ETA_automacao_e_Testes_Mobile```
+## Ambiente Mobile:
 
-```pip install -r requirements.txt```
+Android Studio Emulator
 
-Rodando os Testes Para executar a automação, utilize o comando:
+Dispositivo físico Android
 
-Bash
+Versionamento: Git / GitHub
 
-```pytest -v```
+## Pré-requisitos
 
+Antes de executar o projeto, certifique-se de ter instalado e configurado:
+
+* Python
+
+* Node.js
+
+* Appium Server (ou Airtest)
+
+Instalação das Dependências
+
+Clone o repositório e instale as dependências necessárias:
+```
+git clone https://github.com/biadfialho/ETA_automacao_e_Testes_Mobile.git
+cd ETA_automacao_e_Testes_Mobile
+pip install -r requirements.txt
+```
+
+## Executando os Testes
+
+Para executar os testes automatizados, utilize o comando:
+```
+pytest -v
+```
+
+Os testes serão executados no dispositivo configurado (emulador ou físico), exibindo no terminal o status de cada cenário.
+
+Android Studio (com emulador configurado)
+ou dispositivo físico Android conectado via USB
+
+## Aprendizados com o Projeto
+
+Durante o desenvolvimento deste projeto, foram aplicados conceitos importantes como:
+
+* Automação de testes mobile com Appium
+
+* Estruturação de testes automatizados com Pytest
+
+* Identificação e validação de fluxos críticos
+
+* Execução de testes em diferentes ambientes
+
+Importância da qualidade de software em aplicações mobile
+
+👩‍💻 Bianca Fialho
+[LinkedIn](https://www.linkedin.com/in/bianca-fialho-10670636/)
