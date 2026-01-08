@@ -95,7 +95,7 @@ Durante o desenvolvimento deste projeto, foram aplicados conceitos importantes c
 
 * Execução de testes em diferentes ambientes
 
-Importância da qualidade de software em aplicações mobile
+* Importância da qualidade de software em aplicações mobile
 
 👩‍💻 Bianca Fialho
 [LinkedIn](https://www.linkedin.com/in/bianca-fialho-10670636/)
