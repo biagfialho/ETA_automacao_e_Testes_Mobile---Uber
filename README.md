@@ -18,7 +18,7 @@ Implementação de 2 cenários de teste para cada funcionalidade (Total: 6 cená
 
 As seguintes ferramentas e bibliotecas foram utilizadas na construção deste projeto:
 
-Linguagem: Python
+Linguagem: [Python]
 
 Framework de Automação: [Appium]
 
@@ -26,9 +26,9 @@ Gerenciador de Testes: [Pytest]
 
 IDE: [VS Code / Pycharm]
 
-Dispositivo: [Android Emulator / Dispositivo Físico Android]
+Dispositivo: [Android studio Emulator / Dispositivo Físico Android]
 
-### Como Executar o Projeto Pré-requisitos Python 3.x instalado.
+### Como Executar o Projeto Pré-requisitos Python e Node.js instalado.
 
 [Appium Server / Airtest] configurado e rodando.
 
@@ -40,17 +40,15 @@ Clone este repositório e instale as bibliotecas necessárias:
 
 Bash
 
-`git clone https://github.com/seu-usuario/nome-do-repositorio.git cd nome-do-repositorio pip install -r requirements.txt`
+```git clone https://github.com/biadfialho/ETA_automacao_e_Testes_Mobile.git 
+
+`cd ETA_automacao_e_Testes_Mobile
+
+`pip install -r requirements.txt```
 
 Rodando os Testes Para executar a automação, utilize o comando:
 
 Bash
 
-Exemplo se estiver usando Pytest.kuo
-
 `pytest -v`
 
-Exemplo se for um script Python direto
-python nome_do_script.py
-
-Evidências [Opcional: Insira aqui GIFs ou Prints da automação rodando, isso valoriza muito o projeto no GitHub!]
